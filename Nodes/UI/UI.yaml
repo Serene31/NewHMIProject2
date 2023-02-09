@@ -148,3 +148,10 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
+  - Name: DateAndTime1
+    Type: DateTimePicker
+    Children:
+    - Name: Value
+      Type: BaseDataVariableType
+      DataType: DateTime
+      Value: "1601-01-01T00:00:00.0000000"
